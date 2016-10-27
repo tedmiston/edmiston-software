@@ -9,24 +9,32 @@
   <style>
     body {
       background-color: #222;
-      color: #eee;
+      color: #ccc;
       font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
-      font-size: 24px;
+      font-size: 21px;
       line-height: 125%;
+      padding-left: 17px;
+      padding-right: 17px;
     }
-    h1 { font-size: 100%; }
+    h1 { color: gold; font-size: 100%; }
     p { margin-top: 30px; }
     a:link, a:visited { color: gold; }
     a:hover, a:active { color: lime; }
-    #wrapper { margin: 50px auto; max-width: 450px; text-align: center;}
+    #wrapper { margin: 30px auto 35px; max-width: 400px; text-align: center;}
+    #soon { font-style: italic; margin: 30px auto; }
+    .area { font-weight: bold; text-transform: uppercase; }
+    #copyright { color: #999; font-size: 80%; margin-top: 50px; }
   </style>
 </head>
 <body>
   <div id="wrapper">
     <h1>Edmiston Software, LLC</h1>
-    <p><em>Coming Soon</em></p>
-    <p>For more information, please visit my personal site at <a href="https://www.tedmiston.com">www.tedmiston.com</a>.</p>
-    <p>To discuss your project and availability, <a href="mailto:tedmiston@gmail.com" target="_blank">email me</a>.</p>
+    <p>A small software design &amp; development company based in Cincinnati, Ohio</p>
+    <p id="soon">(Website Coming Soon)</p>
+    <p>My expertise is in creating web apps &amp; APIs (and anything that can be done with a computer) for startups and entrepreneurs.</p>
+    <p><span class="area">About</span><br> For more info, visit <a href="https://www.tedmiston.com">www.tedmiston.com</a>.</p>
+    <p><span class="area">Work</span><br> To inquire about a project or availability, <a href="mailto:tedmiston@gmail.com" target="_blank">email me</a>.</p>
+    <p id="copyright">&copy; 2016 Taylor Edmiston</p>
   </div>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
